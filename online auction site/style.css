@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #f5fff5;
+  color: #333;
+}
+
+header {
+  background-color: #2e7d32;
+  color: white;
+  padding: 1em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav button {
+  margin-left: 1em;
+  padding: 0.5em 1em;
+  background-color: white;
+  color: #2e7d32;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+main {
+  padding: 2em;
+}
+
+.auth {
+  max-width: 400px;
+  margin: auto;
+}
+
+.form-box {
+  background-color: white;
+  padding: 1.5em;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #ccc;
+  margin-bottom: 2em;
+}
+
+input {
+  width: 100%;
+  padding: 0.75em;
+  margin: 0.5em 0;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+button {
+  padding: 0.75em;
+  background-color: #2e7d32;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #1b5e20;
+}
+
+.items-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1em;
+  margin-bottom: 2em;
+}
+
+.item-card {
+  background-color: white;
+  border-left: 6px solid #2e7d32;
+  padding: 1em;
+  border-radius: 8px;
+  box-shadow: 0 0 5px #aaa;
+}
+
+.help-center {
+  background-color: #e8f5e9;
+  padding: 1em;
+  border-radius: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
